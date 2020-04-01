@@ -68,6 +68,16 @@ module.exports = {
     ],
     'no-console': 0,
     'import/prefer-default-export': 0,
+    'import/resolver': {
+      node: {
+        paths: [
+          path.resolve(__dirname, 'src'),
+          path.resolve(__dirname, 'src/pages'),
+          path.resolve(__dirname, 'src/components'),
+          path.resolve(__dirname, 'assets')
+        ],
+      },
+    },
     import: 0,
     'func-names': 0,
     'space-before-function-paren': 0,
