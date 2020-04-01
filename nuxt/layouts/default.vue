@@ -52,4 +52,8 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.container {
+  margin: 0 1.5rem;
+}
 </style>
