@@ -1,0 +1,8 @@
+{
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "vetur.format.defaultFormatter.js": "none",
+  "eslint.validate": ["vue", "javascript"]
+}
