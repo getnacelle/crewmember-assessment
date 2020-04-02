@@ -20,4 +20,4 @@ There aren't any styling requirements, but feel free to get creative!
 
 ### Bonus
 
-From `src/pages/index.js`, be able to increment & decrement the quantity of a product in the cart / list of selected products.
+Without altering `static/products.js`, make it so that any product only appears in the cart once, and show the product's quantity.
