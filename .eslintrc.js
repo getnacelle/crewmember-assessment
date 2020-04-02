@@ -68,16 +68,6 @@ module.exports = {
     ],
     'no-console': 0,
     'import/prefer-default-export': 0,
-    'import/resolver': {
-      node: {
-        paths: [
-          path.resolve(__dirname, 'src'),
-          path.resolve(__dirname, 'src/pages'),
-          path.resolve(__dirname, 'src/components'),
-          path.resolve(__dirname, 'assets')
-        ],
-      },
-    },
     import: 0,
     'func-names': 0,
     'space-before-function-paren': 0,
@@ -91,6 +81,7 @@ module.exports = {
     'react/jsx-key': 1,
     'react/react-in-jsx-scope': 0,
     'react/prefer-stateless-function': 0,
+    'react/prop-types': 0,
     'react/forbid-prop-types': 0,
     'react/no-unescaped-entities': 0,
     'react-hooks/rules-of-hooks': 'error',
