@@ -1,5 +1,5 @@
 import React from 'react';
-import productData from 'assets/products';
+import productData from '../../static/products';
 import './styles.scss';
 
 const { products } = productData;
