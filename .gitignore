@@ -91,3 +91,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Markdown backup files
+*.md.backup
