@@ -10,8 +10,8 @@
           @click="selectProduct"
         >
           <img :src="product.img" />
-          <h3>{{product.title}}</h3>
-          <p>{{product.price}}</p>
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.price }}</p>
         </div>
       </div>
       <div class="columns">
@@ -27,17 +27,17 @@
 </template>
 
 <script>
-import productData from "~/static/products.js";
+import productData from '~/static/products.js'
 export default {
   data() {
     return {
       products: productData.products
-    };
+    }
   },
   methods: {
     selectProducts() {}
   }
-};
+}
 </script>
 <style lang="scss" scoped>
 h1 {

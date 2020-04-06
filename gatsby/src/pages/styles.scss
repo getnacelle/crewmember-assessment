@@ -1,10 +1,7 @@
-<template>
-  <div>
-    <nuxt />
-  </div>
-</template>
+@charset "utf-8";
 
-<style>
+@import '~bulma/bulma.sass';
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -52,4 +49,19 @@ html {
   color: #fff;
   background-color: #35495e;
 }
-</style>
+
+.container {
+  margin: 1.5rem;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-bottom: 4rem;
+}
+
+.product {
+  padding: 2rem;
+  h3 {
+    font-size: 18pt;
+  }
+}

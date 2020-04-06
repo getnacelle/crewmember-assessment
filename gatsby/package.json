@@ -1,0 +1,21 @@
+{
+  "name": "crewmember-assessment-gatsby",
+  "version": "1.0.0",
+  "description": "Nacelle Crewmember Assessment",
+  "author": "Nick Richmond",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "bulma": "^0.8.1",
+    "gatsby": "^2.20.10",
+    "gatsby-plugin-sass": "^2.2.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

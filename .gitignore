@@ -77,6 +77,9 @@ dist
 # Serverless directories
 .serverless
 
+# gatsby build output
+public
+
 # IDE / Editor
 .idea
 
@@ -88,3 +91,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Markdown backup files
+*.md.backup
